@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <!-- Meta básicos -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>DANFE NF-e Modelo 55 | Template HTML</title>
+  <meta name="description"
+    content="Template HTML e CSS que replica a DANFE da Nota Fiscal Eletrônica (NF-e modelo 55), ideal para geração de PDF e sistemas ERP.">
+  <meta name="keywords" content="NF-e, DANFE, nota fiscal, modelo 55, HTML, CSS, template, ERP, Brasil">
+
+  <!-- Autor -->
+  <meta name="author" content="Seu Nome ou Empresa">
+
+  <!-- Open Graph (para redes sociais) -->
+  <meta property="og:title" content="DANFE NF-e Modelo 55 em HTML">
+  <meta property="og:description"
+    content="Template de DANFE em HTML e CSS pronto para uso em sistemas e geração de PDF.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Favicon (opcional) -->
+  <link rel="icon" href="assets/logonf.png" type="image/x-icon">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- TABLE HEADER -->
+  <table>
+    <tr>
+      <td colspan="2" class="css-before linha-um pt-10">
+
+      </td>
+      <td rowspan="2" class="box-serie">
+        <span>NF-e</span> <br>
+        <p> N° 999999 </p>
+        SÉRIE: 4
+      </td>
+    </tr>
+    <tr>
+      <td class="css-before data-de-recebimento pt-10"></td>
+      <td class="css-before pt-10 identificacao-assinatura "></td>
+    </tr>
+
+  </table>
+  <hr class="hr-pontilhado">
+  <!-- TABLE HEADER -->
+
+
+  <!-- TABLE PARTE 1 -->
+  <table>
+    <tr>
+      <td rowspan="3" class="danfe-logo">
+        <div class="box-logo">
+          <img src="assets/logonf.png">
+          <div class="box-logo-text">
+            <b>EMPRESA EMPRESA LTDA</b><br>
+            RODOVIA IMIGRANTES, 9999 - CENTRO <br>
+            SÃO PAULO - SP<br>
+            CEP: 99999-999 FONE: (99) 9999-9999
+          </div>
+        </div>
+      </td>
+      <td rowspan="3" class="box-danfe center">
+        <b>DANFE</b>
+        <p class="doc-um">DOCUMENTO AUXILIAR
+          DE NOTA FISCAL
+          ELETRÔNICA</p>
+        <p class="entrada-saida">
+          1 - SAÍDA
+          <br>
+          0 - ENTRADA
+          <span>1</span>
+        </p>
+        <p class="b-num">Nº 9999999999</p>
+
+        SÉRIE: 4 <br>
+        FOLHA 1/1
+      </td>
+      <td class="css-before pt-10 controle-fisco center"> <img src="barras.png"></td>
+    </tr>
+    <tr>
+      <td class="css-before chave-acesso pt-10 bold center">9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999</td>
+    </tr>
+    <tr>
+      <td class="center">Consulta de autenticidade no portal nacional da NF-e<br>
+        www.nfe.fazenda.gov.br/portal ou no site da Sefaz Autorizadora.</td>
+    </tr>
+
+    <tr>
+      <td colspan="2" class="css-before pt-10 natureza-op">Venda de Mercadoria</td>
+      <td class="css-before pt-10 protocolo-auto">243240179999999 </td>
+    </tr>
+
+    <tr>
+      <td class="css-before pt-10 incricao-estadual">1090399999</td>
+      <td class="css-before pt-10 incricao-estadual-subst"></td>
+      <td class="css-before pt-10 sub-titulo-cnpj">99.999.999/0001-99 </td>
+    </tr>
+
+  </table>
+  <!-- TABLE PARTE 1 -->
+
+
+
+
+
+
+  <!-- TABLE PARTE DESTINATÁRIO / REMETENTE -->
+
+  <div class="grid-container">
+
+    <!-- TIUTLO -->
+    <p class="p-title width-12">DESTINATÁRIO / REMETENTE</p>
+
+    <!-- LINHA UM -->
+    <div class="grid-item width-8 css-before pt-10 sub-titulo-nome-razao">JOÃO MANOEL MUNIZ</div>
+    <!-- NOME / RAZÃO SOCIAL -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-cnpj-cpf">999.999.999/0001-99 </div> <!-- CNPJ / CPF -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-data-emissao">20/11/2026</div> <!-- DATA EMISSÃO -->
+
+    <!-- LINHA DOIS -->
+    <div class="grid-item width-4 css-before pt-10 sub-titulo-endereco">RUA SANTA CLARA, 999</div> <!-- ENDEREÇO -->
+    <div class="grid-item width-4 css-before pt-10 sub-titulo-bairro">MANOEL MUNIZ GONÇALVES</div>
+    <!-- BAIRRO / DISTRITO -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-cep">000000-000</div> <!-- CEP -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-data-entrada-saida bold">20/11/2026</div>
+    <!-- DATA ENTRADA / SAÍDA -->
+
+    <!-- LINHA TRÊS -->
+    <div class="grid-item width-4 css-before pt-10 sub-titulo-municipio">SÃO PAULO</div> <!-- MUNICÍPIO -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-fone-fax">(99) 9999-9999 </div> <!-- FONE / FAX -->
+    <div class="grid-item width-1 css-before pt-10 sub-titulo-uf">SP</div> <!-- UF -->
+    <div class="grid-item width-3 css-before pt-10 sub-titulo-inscri-estad">ISENTO</div> <!-- INSCRIÇÃO ESTADUAL -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-hora-entrada-saida bold">16:20</div>
+    <!-- HORA ENTRADA / SAÍDA -->
+
+    <!-- TIUTLO -->
+    <p class="p-title width-12">FATURA / DUPLICATA</p>
+    <div class="grid-item width-12 css-before pt-10 "></div> <!-- FATURA / DUPLICATA -->
+
+    <!-- TIUTLO -->
+    <p class="p-title width-12">CALCULO DO IMPOSTO</p>
+
+    <!-- LINHA TRÊS -->
+    <div class="grid-item width-3 css-before pt-10 sub-titulo-culc-icms">R$ 0,00</div> <!-- BASE DE CALCULO DO ICMS -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-valor-icms">R$ 0,00</div> <!-- VALOR DO ICMS -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-icms-sub">R$ 0,00</div>
+    <!-- BASE DE CALCULO DO ICMS SUBST. -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-icms">R$ 0,00</div> <!-- VALOR DO ICMS SUBST -->
+    <div class="grid-item width-3 css-before pt-10 sub-titulo-valor-total">R$ 89,98</div>
+    <!-- VALOR TOTAL DOS PRODUTOS -->
+
+    <!-- LINHA QUATRO -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-valor-frete">R$ 0,00</div> <!-- VALOR DO FRETE -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-valor-seguro">R$ 0,00</div> <!-- VALOR DO SEGURO -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-desconto">R$ 0,00</div> <!-- DESCONTO -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-outras-despesas">R$ 0,00</div>
+    <!-- OUTRAS DESPESAS ACESSÓRIAS -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-valor-total-ipi">R$ 89,98</div>
+    <!-- VALOR TOTAL DO IPI -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-valor-total-nf bold">R$ 89,98</div>
+    <!-- VALOR TOTAL DA NOTA -->
+
+    <!-- TIUTLO -->
+    <p class="p-title width-12">TRANSPORTADOR / VOLUMES TRANSPORTADOS </p>
+
+    <!-- LINHA CINCO -->
+    <div class="grid-item width-3 css-before pt-10 sub-titulo-nome-rz"></div> <!-- NOME / RAZÃO SOCIAL -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-frete-conta">9-SEM FRETE</div> <!-- FRETE POR CONTA -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-antt"></div> <!-- CÓDIGO ANTT -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-placa-v"></div> <!-- PLACA DO VEICULO -->
+    <div class="grid-item width-1 css-before pt-10 sub-titulo-trans-uf"></div> <!-- UF -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-trans-cnpj bold"></div> <!-- CNPJ / CPF -->
+
+    <!-- LINHA SEIS -->
+    <div class="grid-item width-5 css-before pt-10 sub-titulo-trans-endereco"></div> <!-- ENDEREÇO -->
+    <div class="grid-item width-4 css-before pt-10 sub-titulo-trans-municipio">9-SEM FRETE</div> <!-- MUNICÍPIO -->
+    <div class="grid-item width-1 css-before pt-10 sub-titulo-trans-uf-dois"></div> <!-- UF -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-trans-inscr-estadual"></div> <!-- INSCRIÇÃO ESTADUAL -->
+
+    <!-- LINHA SETE -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-qnt-transporte"></div> <!-- QUANTIDADE -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-trans-especie"></div> <!-- ESPÉCIE -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-trans-marca"></div> <!-- MARCA -->
+    <div class="grid-item width-3 css-before pt-10 sub-titulo-trans-num"></div> <!-- NUMERAÇÃO -->
+    <div class="grid-item width-1 css-before pt-10 sub-titulo-trans-peso-bruto"></div> <!-- PESO BRUTO -->
+    <div class="grid-item width-2 css-before pt-10 sub-titulo-trans-peso"></div> <!-- PESO LIQUIDO -->
+
+    <!-- TIUTLO -->
+    <p class="p-title width-12">DADOS DO PRODUTOS / SERVIÇOS</p>
+
+  </div>
+  <!-- TABLE PARTE DESTINATÁRIO / REMETENTE -->
+
+
+
+
+
+  <table class="table-produtos-servicos">
+    <thead>
+      <tr>
+        <th rowspan="2">CÓDIGO</th>
+        <th rowspan="2" style="width:200px;">DESCRIÇÃO DOS PRODUTOS / SERVIÇOS</th>
+        <th rowspan="2">NCM/SH</th>
+        <th rowspan="2">CST</th>
+        <th rowspan="2">CFOP</th>
+        <th rowspan="2">UNID</th>
+        <th rowspan="2">QUANT.</th>
+        <th rowspan="2">VALOR UNITÁRIO</th>
+        <th rowspan="2">VALOR TOTAL</th>
+        <th colspan="1">BASE</th>
+        <th colspan="2">VALOR</th>
+        <th colspan="2">ALIQUOTA</th>
+      </tr>
+      <tr>
+        <th>Cálculo</th>
+        <th>ICMS</th>
+        <th>IPI</th>
+        <th>ICMS %</th>
+        <th>IPI %</th>
+      </tr>
+    </thead>
+    <tbody class="tbody-produtos-servicos">
+      <tr>
+        <td>2</td>
+        <td>ASSINATURA 99999 - PREMIUM COMPLETO - 31/07/24 A 30/07/25</td>
+        <td>49099900</td>
+        <td>041</td>
+        <td>5101</td>
+        <td>UN</td>
+        <td>1</td>
+        <td>89,9800</td>
+        <td>89,98</td>
+        <td>0,00</td>
+        <td>0,00</td>
+        <td>0,00</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>ASSINATURA 9999 - PREMIUM COMPLETO - 31/07/24 A 30/07/25</td>
+        <td>49999000</td>
+        <td>041</td>
+        <td>5101</td>
+        <td>UN</td>
+        <td>1</td>
+        <td>89,9800</td>
+        <td>89,98</td>
+        <td>0,00</td>
+        <td>0,00</td>
+        <td>0,00</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>ASSINATURA 999 - PREMIUM COMPLETO - 31/07/24 A 30/07/25</td>
+        <td>49029900</td>
+        <td>041</td>
+        <td>5101</td>
+        <td>UN</td>
+        <td>1</td>
+        <td>89,9800</td>
+        <td>89,98</td>
+        <td>0,00</td>
+        <td>0,00</td>
+        <td>0,00</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+
+    </tbody>
+  </table>
+  <p class="span-final-table">VERSÃO DO SISTEMA EMISSOR DA NFE: SISTEMA GERAL</p>
+  <!-- DADOS DO PRODUTOS / SERVIÇOS -->
+
+
+  <!-- BOX GRID -->
+  <div class="grid-container">
+    <!-- CALCULO DO ISSQN -->
+    <!-- TIUTLO -->
+    <p class="p-title width-12">CALCULO DO ISSQN</p>
+    <!-- LINHA OITO -->
+    <div class="grid-item width-3 css-before pt-10 sub-titulo-inscr-municipal">JOÃO MARTINS MOREIRA</div>
+    <!-- INSCRIÇÃO MUNICIPAL -->
+    <div class="grid-item width-3 css-before pt-10 sub-titulo-vlr-ttl-ser">JOÃO MARTINS MOREIRA</div>
+    <!-- VALOR TOTAL DOS SERVIÇOS -->
+    <div class="grid-item width-3 css-before pt-10 sub-titulo-base-issqn">JOÃO MARTINS MOREIRA</div>
+    <!-- BASE DE CALCULO DO ISSQN  -->
+    <div class="grid-item width-3 css-before pt-10 sub-titulo-vlr-issqn">JOÃO MARTINS MOREIRA</div>
+    <!-- VALOR DO ISSQN -->
+
+    <!-- CALCULO DO ISSQN -->
+
+    <!-- DADOS ADICIONAIS -->
+    <p class="p-title width-12">DADOS ADICIONAIS</p>
+    <!-- LINHA NOVE -->
+    <div class="grid-item grid-height width-8 css-before pt-10 sub-titulo-info-comple">ICMS nao incide cfe Livro I, Art
+      11, Inciso II do RICMS/RS.
+      PAGAMENTO A PRAZO
+      DADOS BANCARIOS: BANCO:9999 AG:9999.99 CONTA:99999999999</div> <!-- BASE DE CALCULO DO ISSQN  -->
+    <div class="grid-item grid-height width-4 css-before pt-10 sub-titulo-reserv-fisco"></div>
+    <!-- RESERVADO AO FISCO -->
+
+    <!-- DADOS ADICIONAIS -->
+  </div>
+  <!-- BOX GRID -->
+
+</body>
+
+</html>

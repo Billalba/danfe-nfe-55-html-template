@@ -1,0 +1,523 @@
+    body {
+        font-family: Arial, sans-serif;
+        width: 815px;
+        margin: 20px auto;
+        font-size: 8px;
+        padding: 15px;
+    }
+
+    table {
+        width: 100%;
+        font-family: Arial, sans-serif;
+    }
+
+    th,
+    td {
+        border: 1px solid #000;
+        padding: 5px;
+        text-align: left;
+    }
+
+    td {
+        border-radius: 5px;
+        overflow: hidden;
+        height: auto;
+        min-height: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    tr {
+        position: relative;
+    }
+
+    hr.hr-pontilhado {
+        border: dashed 1px #000000;
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    p.entrada-saida {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+    }
+
+    p.entrada-saida span {
+        padding: 2px 6px;
+        border: 1px solid black;
+        margin-left: 15px;
+        font-size: 16px;
+    }
+
+    td.box-danfe>p {
+        margin: 0;
+    }
+
+    p.entrada-saida {
+        font-size: 10px;
+        text-align: justify;
+        margin: 8px 0px !important;
+    }
+
+    p.doc-um {
+        margin: 8px 0px !important;
+    }
+
+    p.b-num {
+        margin: 5px 0px !important;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    td.box-danfe {
+        width: 20%;
+    }
+
+    td.box-danfe>b {
+        font-size: 14px;
+    }
+
+    .box-logo {
+
+        text-align: center;
+    }
+
+    td.danfe-logo {
+        /* background: red; */
+        width: 36%;
+    }
+
+    .box-logo img {
+        width: 70px;
+        height: fit-content;
+    }
+
+    p.span-final-table {
+        margin: 0;
+        margin-top: 3px;
+        font-size: 7px;
+    }
+
+    /* CSS AFTER */
+
+    td.pt-10 {
+        padding-top: 15px;
+        position: relative;
+    }
+
+    .css-before:before {
+        font-size: 7px;
+        position: absolute;
+        top: 5px;
+        left: 6px;
+    }
+
+    .identificacao-assinatura {
+        width: 66%;
+    }
+
+    .data-de-recebimento {
+        width: 19%;
+    }
+
+    .box-serie {
+        width: 15%;
+        text-align: center;
+    }
+
+    td.box-serie span {
+        font-size: 12px;
+    }
+
+    td.box-serie p {
+        margin: 6px 0px;
+        font-weight: bold;
+    }
+
+    .linha-um:before {
+        content: "RECEBEMOS DE NEWCO SM EMPRESA JORNALISTICA LTDA OS PRODUTOS CONSTANTES NA NOTA FISCAL INDICADA AO LADO.";
+    }
+
+    td.data-de-recebimento:before {
+        content: "DATA DE RECEBIMENTO";
+    }
+
+    td.identificacao-assinatura:before {
+        content: "IDENTIFICAÇÃO E ASSINATURA DO RECEBEDOR";
+    }
+
+
+    td.controle-fisco:before {
+        content: "CONTROLE DO FISCO";
+    }
+
+    td.chave-acesso:before {
+        content: "CHAVE DE ACESSO";
+    }
+
+    td.natureza-op:before {
+        content: "NATUREZA DA OPERAÇÃO";
+    }
+
+    td.protocolo-auto:before {
+        content: "PROTOCOLO DE AUTORIZAÇÃO DE USO";
+    }
+
+    td.incricao-estadual:before {
+        content: "INSCRIÇÃO ESTADUAL";
+    }
+
+    td.incricao-estadual-subst:before {
+        content: "INSCRIÇÃO ESTADUAL DE SUBST.";
+    }
+
+    td.sub-titulo-cnpj:before {
+        content: "CNPJ";
+    }
+
+
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        ;
+        /* Ajuste as larguras conforme necessário */
+        gap: 1px;
+        /*  border: 1px solid #000; */
+        /* padding: 5px; */
+        grid-template-rows: repeat(4, auto);
+    }
+
+    .grid-item {
+        border: 1px solid #000;
+        border-radius: 5px;
+        padding: 5px;
+        text-align: left;
+        padding-top: 15px;
+        height: auto;
+        min-height: 14px;
+        position: relative;
+
+    }
+
+    .height-1 {
+        grid-row: span 1;
+        /* Ocupa duas linhas */
+    }
+
+    .height-2 {
+        grid-row: span 2;
+        /* Ocupa duas linhas */
+    }
+
+    .height-2 {
+        grid-row: span 3;
+        /* Ocupa três linhas */
+    }
+
+    .height-4 {
+        grid-row: span 4;
+        /* Ocupa três linhas */
+    }
+
+    .height-5 {
+        grid-row: span 5;
+        /* Ocupa três linhas */
+    }
+
+    .width-1 {
+        grid-column: span 1;
+    }
+
+    .width-2 {
+        grid-column: span 2;
+    }
+
+    .width-3 {
+        grid-column: span 3;
+    }
+
+    .width-4 {
+        grid-column: span 4;
+    }
+
+    .width-5 {
+        grid-column: span 5;
+    }
+
+    .width-6 {
+        grid-column: span 6;
+    }
+
+    .width-7 {
+        grid-column: span 7;
+    }
+
+    .width-8 {
+        grid-column: span 8;
+    }
+
+    .width-9 {
+        grid-column: span 9;
+    }
+
+    .width-10 {
+        grid-column: span 10;
+    }
+
+    .width-11 {
+        grid-column: span 11;
+    }
+
+    .width-12 {
+        grid-column: span 12;
+    }
+
+    .p-title {
+        margin: 5px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    /*  */
+
+
+    .sub-titulo-nome-razao:before {
+        content: "NOME / RAZÃO SOCIAL";
+    }
+
+    .sub-titulo-cnpj-cpf:before {
+        content: "CNPJ / CPF";
+    }
+
+    .sub-titulo-data-emissao:before {
+        content: "DATA EMISSÃO";
+    }
+
+
+    .sub-titulo-endereco:before {
+        content: "ENDEREÇO";
+    }
+
+    .sub-titulo-bairro:before {
+        content: "BAIRRO / DISTRITO";
+    }
+
+    .sub-titulo-cep:before {
+        content: "CEP";
+    }
+
+    .sub-titulo-data-entrada-saida:before {
+        content: "DATA ENTRADA / SAÍDA";
+    }
+
+
+
+    .sub-titulo-municipio:before {
+        content: "MUNICÍPIO";
+    }
+
+    .sub-titulo-fone-fax:before {
+        content: "FONE / FAX ";
+    }
+
+    .sub-titulo-uf:before {
+        content: "UF";
+    }
+
+    .sub-titulo-inscri-estad:before {
+        content: "INSCRIÇÃO ESTADUAL";
+    }
+
+    .sub-titulo-hora-entrada-saida:before {
+        content: "HORA ENTRADA / SAÍDA";
+    }
+
+
+    .sub-titulo-culc-icms:before {
+        content: "BASE DE CALCULO DO ICMS";
+    }
+
+    .sub-titulo-valor-icms:before {
+        content: "VALOR DO ICMS";
+    }
+
+    .sub-titulo-icms-sub:before {
+        content: "BASE DE CALCULO DO ICMS SUBST.";
+    }
+
+    .sub-titulo-icms:before {
+        content: "VALOR DO ICMS SUBST";
+    }
+
+    .sub-titulo-valor-total:before {
+        content: "VALOR TOTAL DOS PRODUTOS";
+    }
+
+
+    .sub-titulo-valor-frete:before {
+        content: "VALOR DO FRETE";
+    }
+
+    .sub-titulo-valor-seguro:before {
+        content: "VALOR DO SEGURO";
+    }
+
+    .sub-titulo-desconto:before {
+        content: "DESCONTO";
+    }
+
+    .sub-titulo-outras-despesas:before {
+        content: "OUTRAS DESPESAS ACESSÓRIAS";
+    }
+
+    .sub-titulo-valor-total-ipi:before {
+        content: "VALOR TOTAL DO IPI";
+    }
+
+    .sub-titulo-valor-total-nf:before {
+        content: "VALOR TOTAL DA NOTA";
+    }
+
+
+
+    .sub-titulo-nome-rz:before {
+        content: "NOME / RAZÃO SOCIAL";
+    }
+
+    .sub-titulo-frete-conta:before {
+        content: "FRETE POR CONTA";
+    }
+
+    .sub-titulo-antt:before {
+        content: "CÓDIGO ANTT";
+    }
+
+    .sub-titulo-placa-v:before {
+        content: "PLACA DO VEICULO";
+    }
+
+    .sub-titulo-trans-uf:before {
+        content: "UF";
+    }
+
+    .sub-titulo-trans-cnpj:before {
+        content: "CNPJ / CPF";
+    }
+
+
+
+    .sub-titulo-trans-endereco:before {
+        content: "ENDEREÇO";
+    }
+
+    .sub-titulo-trans-municipio:before {
+        content: "MUNICÍPIO";
+    }
+
+    .sub-titulo-trans-uf-dois:before {
+        content: "UF";
+    }
+
+    .sub-titulo-trans-inscr-estadual:before {
+        content: "INSCRIÇÃO ESTADUAL";
+    }
+
+
+
+
+
+    .sub-titulo-qnt-transporte:before {
+        content: "QUANTIDADE";
+    }
+
+    .sub-titulo-trans-especie:before {
+        content: "ESPÉCIE";
+    }
+
+    .sub-titulo-trans-marca:before {
+        content: "MARCA";
+    }
+
+    .sub-titulo-trans-num:before {
+        content: "NUMERAÇÃO";
+    }
+
+    .sub-titulo-trans-peso-bruto:before {
+        content: "PESO BRUTO";
+    }
+
+    .sub-titulo-trans-peso:before {
+        content: "PESO LIQUIDO";
+    }
+
+
+    /* TABLE FINAL */
+    .sub-titulo-inscr-municipal:before {
+        content: "INSCRIÇÃO MUNICIPAL";
+    }
+
+    .sub-titulo-vlr-ttl-ser:before {
+        content: "VALOR TOTAL DOS SERVIÇOS";
+    }
+
+    .sub-titulo-base-issqn:before {
+        content: "BASE DE CALCULO DO ISSQN";
+    }
+
+    .sub-titulo-vlr-issqn:before {
+        content: "VALOR DO ISSQN";
+    }
+
+
+    .sub-titulo-info-comple:before {
+        content: "INFORMAÇÕES COMPLEMENTARES";
+    }
+
+    .sub-titulo-reserv-fisco:before {
+        content: "RESERVADO AO FISCO";
+    }
+
+    .grid-height {
+        height: auto;
+    }
+
+    /* TABLE FINAL */
+
+
+
+
+
+
+
+
+    /*  DADOS DO PRODUTOS / SERVIÇOS  */
+    .table-produtos-servicos {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    .table-produtos-servicos th {
+        text-align: center;
+        font-size: 8px;
+    }
+
+    .tbody-produtos-servicos tr th {
+        font-size: 8px;
+    }
+
+    tbody.tbody-produtos-servicos tr {
+        font-size: 8px;
+    }
+
+    /*  DADOS DO PRODUTOS / SERVIÇOS  */
